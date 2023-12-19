@@ -1,5 +1,5 @@
 function loadContent() {
-    axios.get('/header.html')
+    axios.get('https://bubbalooteam.github.io/WhiterDocs/header.html')
         .then(function (response) {
             var contentContainer = document.getElementById('headerContentContainer');
             contentContainer.innerHTML = response.data;

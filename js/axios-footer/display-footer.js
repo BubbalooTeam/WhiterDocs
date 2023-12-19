@@ -1,5 +1,5 @@
 function loadContent() {
-    axios.get('/footer.html')
+    axios.get('https://bubbalooteam.github.io/WhiterDocs/footer.html')
         .then(function (response) {
             var contentContainer = document.getElementById('footerContentContainer');
             contentContainer.innerHTML = response.data;
