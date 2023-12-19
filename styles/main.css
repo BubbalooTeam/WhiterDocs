@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://lucmsilva651.github.io/website-files/WhiterDocs/files/pub_background_fit.png);
+    background-size: cover;
+    color: #f5f5f5;
+    font-family: 'Gabarito Regular', sans-serif;
+}
+
+.body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #222222;
+    padding-top: 2.5px;
+    padding-bottom: 5px;
+}
+
+.logotype {
+    font-weight: bold;
+    font-family: 'Open Sans Regular';
+}
+
+.logotype-big {
+    text-align: center;
+    font-size: 50pt;
+}
+
+header {
+    color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    margin: 0;
+}
+
+.container-branding {
+    padding-left: 20px;
+}
+
+.container-links {
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding-right: 1em;
+}
+
+a {
+    color: #f5f5f5;
+    transition: 200ms;
+}
+
+a:hover {
+    color: #ffffff;
+    transition: 200ms;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin: 0.1em;
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    text-size-adjust: auto;
+    font-size: initial;
+    background-color: #222222;
+    color: #f5f5f5;
+    font-family: 'Gabarito Regular', sans-serif;
+    transition: 200ms;
+}
+
+button:hover {
+    transition: 200ms;
+    background-color: #333333;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.button {
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+    margin-bottom: 5px;
+}
+
+.gif-margin {
+    margin: 10px;
+}
+
+.body-homepage {
+    text-align: center;
+}
+
+.centered-button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
